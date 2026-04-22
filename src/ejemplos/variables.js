@@ -41,4 +41,5 @@ export default function VariablesEjemplo(){
     //cuando se usa en arrays no se puede reasignar valores, pero si se puede crear internamente nuevos objetos
     const ingredientes = ['Queso', 'Europa']
     ingredientes.push('Vegetales');
+    console.log(ingredientes);
 }
