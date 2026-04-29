@@ -11,6 +11,7 @@ export let configuracionesGlobales = {
     logueado: false
 }
 
+//function Principal es la funcion por defecto del modulo, no es necesario usar llaves para importarla
 export default function funcionPrincipal()
 {
     console.log("Ejecutando la funcion principal")
