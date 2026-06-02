@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 import funcionPrincipal, { funcionExportada as aliasDeLaFuncion, configuracionesGlobales } from './ejemplos/modulo.js'
 import TemplateStringsEjemplo from './ejemplos/template-strings.js'
+import OperadorTernarioEjemplo from './ejemplos/operador-ternario.js'
+import LiteralesDeObjetosMejorado from './ejemplos/literal-objeto-mejorado.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -25,4 +27,4 @@ document.querySelector('#app').innerHTML = `
 
 setupCounter(document.querySelector('#counter'))
 
-TemplateStringsEjemplo();
+LiteralesDeObjetosMejorado();
