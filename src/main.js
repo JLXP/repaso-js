@@ -7,6 +7,7 @@ import TemplateStringsEjemplo from './ejemplos/template-strings.js'
 import OperadorTernarioEjemplo from './ejemplos/operador-ternario.js'
 import LiteralesDeObjetosMejorado from './ejemplos/literal-objeto-mejorado.js'
 import Operadorspread from './ejemplos/spread.js'
+import { Rectangulo, Cuadrado } from './ejemplos/clase.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -28,4 +29,12 @@ document.querySelector('#app').innerHTML = `
 
 setupCounter(document.querySelector('#counter'))
 
-Operadorspread();
+const rectangulo1 = new Rectangulo(2,3);
+console.log(rectangulo1.alto)
+rectangulo1.area()
+
+const rectangulo2 = new Rectangulo(4,5);
+rectangulo2.area();
+
+const cuadrado1 = new Cuadrado(5);
+cuadrado1.area();
