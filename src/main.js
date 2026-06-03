@@ -6,6 +6,7 @@ import funcionPrincipal, { funcionExportada as aliasDeLaFuncion, configuraciones
 import TemplateStringsEjemplo from './ejemplos/template-strings.js'
 import OperadorTernarioEjemplo from './ejemplos/operador-ternario.js'
 import LiteralesDeObjetosMejorado from './ejemplos/literal-objeto-mejorado.js'
+import Operadorspread from './ejemplos/spread.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -27,4 +28,4 @@ document.querySelector('#app').innerHTML = `
 
 setupCounter(document.querySelector('#counter'))
 
-LiteralesDeObjetosMejorado();
+Operadorspread();
