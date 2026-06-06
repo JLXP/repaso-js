@@ -25,16 +25,22 @@ document.querySelector('#app').innerHTML = `
       Click on the Vite logo to learn more
     </p>
   </div>
+  <div id="listado">
+
+  </div>
 `
 
 setupCounter(document.querySelector('#counter'))
 
-const rectangulo1 = new Rectangulo(2,3);
-console.log(rectangulo1.alto)
-rectangulo1.area()
+// const rectangulo1 = new Rectangulo(2,3);
+// console.log(rectangulo1.alto)
+// rectangulo1.area()
 
-const rectangulo2 = new Rectangulo(4,5);
-rectangulo2.area();
+// const rectangulo2 = new Rectangulo(4,5);
+// rectangulo2.area();
 
-const cuadrado1 = new Cuadrado(5);
-cuadrado1.area();
+// const cuadrado1 = new Cuadrado(5);
+// cuadrado1.area();
+
+const lista = MapEjemplo();
+document.querySelector('#listado').innerHTML = lista;
