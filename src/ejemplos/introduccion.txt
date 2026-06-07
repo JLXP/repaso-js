@@ -1,0 +1,43 @@
+-Modulos
+Los moduloes nos permiten organizar nuestras aplicaciones en distintos archivos
+
+- Let y Const
+LET podemos declarar variables a nivel de bloqueo de codigo, las cuales podemos
+editar, mientras que const declaramos valores que no pueden ser reasignados con 
+las funciones flecha
+
+-This
+Funcion flecha que hace referencia al ambiente donde fue declarada la funciones
+
+-Plantillas de string o template string
+Podemos utilizar Backticks para definir strings que ocupan varias lineas y que 
+ademas nos permiten realizar interpolacion de strings, que es cuando podemos usar
+plantillas para insertar valores dentro de un string
+
+-Operador ternario
+Tenemos una forma abreviada de un if else
+
+-Desestructuracion
+Podemos extraer valores de objetos y arreglos de una manera sencilla
+
+-Operador spread
+Podemos crear objetos y areglos de una manera abreviada
+
+-Clases
+Podemos crear unidades de codigo que encapsular data y funcionalidad
+
+-Funcion map
+Nos permite mapear los valores de un arreglo hacia otro arreglo
+
+
+-Promesas
+Representan valores que se van a terminar de ejecutar en el futuro y nos 
+permiten realizar otras acciones mientras dicho valor llega
+
+-Async await
+Nos permite usar una sintaxis mas agradable que las promesas para lograr el mismo
+resultados
+
+-Debugger
+Nos sirve para detener la ejecucion de nuestro codigo de Javascript para
+examinar el ambiente
