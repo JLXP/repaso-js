@@ -14,10 +14,12 @@ export async function Asyncawait(){
     try{
         const respuesta = await fetch('https://jsonplaceholder2.typidcode.com/todos/1');
         const json = await respuesta.json();
+        //debugger;
         console.log(json);
     } catch (error) {
         console.log('hubo un error');
     }
 }
 
+//debuger poder examinar el codigo en tiempo real
 
